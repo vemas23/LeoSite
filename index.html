@@ -13,5 +13,8 @@
         function navigateToZielseite() {
             window.location.href = "Paint.html";
         }
-
+        const { faker } = require('@faker-js/faker');
+        const hackerguy = faker.hacker.phrase;
+        document.getElementById("demo").innerHTML = hackerguy
     </script>
+<p id="demo"></p>
